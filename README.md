@@ -150,8 +150,8 @@ yii migrate --migrationPath=@vendor/phpnt/oAuth/migrations
                     /* Поле статус и значение активного пользователя */
                     'status'        => 'status_field_in_User',
                     'statusActive'  => 1,       // значение для активного пользователя
-                    'clientId' => '761447525512-dab4aj2o4kc508lag19q9rq2df44g0fg.apps.googleusercontent.com',
-                    'clientSecret' => 'H0GlMRq-gqQ8glkmUa2FAKB0',
+                    'clientId' => '---',
+                    'clientSecret' => '---',
                 ],
                 ...
             ]

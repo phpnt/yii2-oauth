@@ -37,7 +37,7 @@ composer require phpnt/yii2-oauth "*"
 ```
 после загрузки, выполнить миграцию
 ```
-yii migrate --migrationPath=@vendor/phpnt/oAuth/migrations
+yii migrate --migrationPath=@vendor/phpnt/yii2-oauth/migrations
 ```
 ## Использование:
 ### Подключение:
@@ -48,7 +48,7 @@ yii migrate --migrationPath=@vendor/phpnt/oAuth/migrations
 ...
 'controllerMap' => [
         'auth' => [
-            'class'         => 'app\widgets\oAuth\controllers\AuthController',
+            'class'         => 'phpnt\oAuth\controllers\AuthController',
             'modelUser'     => 'app\models\User'  // путь к модели User      
         ],
     ],

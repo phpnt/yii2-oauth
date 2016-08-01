@@ -122,7 +122,7 @@ yii migrate --migrationPath=@vendor/phpnt/yii2-oauth/migrations
 ...
 'controllerMap' => [
         'auth' => [
-            'class'         => 'app\widgets\oAuth\controllers\AuthController',
+            'class'         => 'phpnt\oAuth\controllers\AuthController',
             'modelUser'     => 'app\models\User'  // путь к модели User      
         ],
     ],
